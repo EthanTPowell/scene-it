@@ -1,0 +1,60 @@
+body {
+	background-color: #B2E9FD;
+}
+
+.header h2 {
+	color: #DC4247;
+}
+
+.header p {
+	color: #50524F;
+}
+
+.results {
+	margin-top: 20px;
+}
+
+#results{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+img{
+	width: 150px;
+	height: auto;
+}
+.card{
+	background-color: slategray;
+	display: flex;
+	width: 200px;
+	
+}
+.movie{
+	display: flex;
+
+}
+#listDisplay{
+	display: flex;
+	/* flex-direction: column; */
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+div.actors{
+	display: flex;
+	flex-wrap: wrap;
+}
+#goToList{
+	display: flex;
+	justify-content: center;
+	margin-top: 3px;
+}
+.add-button{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 150px;
+
+}
+.poster{
+	max-width: 150px;
+
+}
